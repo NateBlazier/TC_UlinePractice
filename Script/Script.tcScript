@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Utilities">
+			<child name="ImageChecks" key="{417413BE-3233-46D1-8BF2-D03838D7D33C}" path="ImageChecks.js" />
+		</folder>
+		<folder name="pages">
+			<child name="page_SignIn" key="{A84818E4-B505-49C2-A2A4-DBFE5709F55D}" path="page_SignIn.js" />
+		</folder>
+		<child name="_02_SearchBar_ConfirmUserCanSearch" key="{7D7D2B08-6AAD-4FF9-AA6D-1856418D1B1A}" path="_02_SearchBar_ConfirmUserCanSearch.js" />
+		<child name="_03_ShoppingCart_AddingSomethingToTheCartThenRemoveIt" key="{1430FBA4-A159-4367-A65B-E74D2C46A83E}" path="_03_ShoppingCart_AddingSomethingToTheCartThenRemoveIt.js" />
+		<child name="_01_LandingPage_CheckImages" key="{A562ED86-F1C1-4676-8EE2-A23AD45E17C6}" path="_01_LandingPage_CheckImages.js" />
+		<child name="Stuff" key="{B928D5C7-DC13-4E33-8A1A-89F4245B27D5}" path="Stuff.js" />
+		<child name="HeaderMaster_CheckElementsExists" key="{EB4FAB7C-3099-48B4-86ED-818161DE8DD1}" path="HeaderMaster_CheckElementsExists.js" />
+		<child name="Test_Uline_WorkingOnNameMappingElements" key="{A4A9593A-C860-4F5C-BCD5-C96E078AB880}" path="Test_Uline_WorkingOnNameMappingElements.js" />
+		<child name="PointAndClick" key="{D984139C-D254-42D3-92B8-F72E27EAA562}" path="PointAndClick.js" />
+		<child name="_04_SignIn" key="{117309E3-8DC7-4475-ACE2-C0BCD10F8E6B}" path="_04_SignIn.js" />
+	</children>
+</Root>

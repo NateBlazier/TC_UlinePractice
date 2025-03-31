@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{80205F6A-D53E-4F75-A68C-7E97159F64C6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{51E40EE2-8399-4636-9B2A-5A4E3A17A9EC}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{5873BF5D-96FB-4716-AB35-18AFF790C435}">
+								<TypeInfo Item0="{A11A8785-B240-4871-8DE7-91F24C12AFE3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="7" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{E2C89592-B0B3-4E96-93BF-BB4F27593EFD}">
+								<Image FileName="1665643848" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{A11A8785-B240-4871-8DE7-91F24C12AFE3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageUlineShippingBoxesShippingSu" Key="{4EDA21FA-C459-400F-B747-55DF24905871}">
+								<Image FileName="1071416044" Left="0" Top="121" Right="2560" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBody" Key="{92D2ECB2-4CB4-45C7-B9B0-154E1B2B96E7}">
+										<Image FileName="1071416044" Left="0" Top="121" Right="2545" Bottom="1400" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#body" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(., &apos;&lt;div class=&quot;noscript-padding&quot;&gt;&lt;/div&gt;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAntiStatic" Key="{771918F8-7F89-4C71-8593-2C44699C7799}">
+										<Image FileName="1720860616" Left="664" Top="253" Right="886" Bottom="481" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Anti-Static&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAntiStatic2" Key="{AF6C99AC-D507-4B97-8C98-3332D6ECD327}">
+										<Image FileName="1720860616" Left="664" Top="253" Right="885" Bottom="276" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Anti-Static&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAntiStatic" Key="{7947B25A-0B95-47B0-8E20-B20238B2FE5F}">
+										<Image FileName="1720860616" Left="664" Top="253" Right="885" Bottom="276" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Anti-Static&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;AllProductsMenu&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]/div[@role=&apos;navigation&apos;]//div[@id=&apos;AllProductsMenu&apos;]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSearch" Key="{E1DADD4C-8FFB-4DAC-87BE-5048F32379ED}">
+										<Image FileName="-1869709860" Left="645" Top="167" Right="705" Bottom="192" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;searchTextBoxWatermark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;search&apos;]/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSearchBar" Key="{70637644-1055-454A-93ED-1FE2BFA4C19B}">
+										<Image FileName="871899112" Left="645" Top="167" Right="942" Bottom="193" />
+										<TypeInfo Item0="{5DCAD379-2488-424D-9F1F-C5D541DF70CD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Search Bar&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#txtProductSearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;txtProductSearch&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]/div/div[@role=&apos;search&apos;]/div/span[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGo" Key="{BBE4C98A-EAAD-4460-BE7B-56886A2048C5}">
+										<Image FileName="-1627954971" Left="952" Top="167" Right="988" Bottom="188" />
+										<TypeInfo Item0="{AEC1551E-0251-46EF-847D-153987625122}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#uhGo" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;GO&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pnlHeaderSearchContainer&apos;]//span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]/div/div[@role=&apos;search&apos;]/div/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageHomeMar25Feature1Us" Key="{38134D52-D6B7-4DC8-BEEB-9A92D83DE016}">
+										<Image FileName="-1040244219" Left="140" Top="242" Right="692" Bottom="657" />
+										<TypeInfo Item0="{E2A662A5-2211-4653-BEFF-DEABB38D1D80}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;HOME_MAR25_feature1_US&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Carts&apos;)]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div/a/picture/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageHomeMar25Feature1Us2" Key="{B4A44CC5-A104-4EA5-970D-A3AB2EB74159}">
+										<Image FileName="1054181641" Left="140" Top="242" Right="692" Bottom="657" />
+										<TypeInfo Item0="{E2A662A5-2211-4653-BEFF-DEABB38D1D80}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;HOME_MAR25_feature1_US&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Carts&apos;)]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div/a/picture/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBoxes" Key="{A1A2ED7E-C198-47D5-AFEB-39CA8872E28B}">
+										<Image FileName="-481627288" Left="146" Top="657" Right="1123" Bottom="657" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Retail/Store Operations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;grpfeature3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBoxes2" Key="{C6836F6B-06B3-44E8-BD07-B8B19C955CAA}">
+										<Image FileName="-481627288" Left="149" Top="657" Right="470" Bottom="881" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBoxes3" Key="{C666ABC6-5A06-4319-9EBB-A2AF49A9317F}">
+										<Image FileName="-481627288" Left="149" Top="859" Right="470" Bottom="873" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Boxes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Boxes-Corrugated&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShippingSupplies" Key="{06A5D317-7D3F-475F-8EE6-9B9EE8217313}">
+										<Image FileName="-2102025186" Left="470" Top="657" Right="791" Bottom="881" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShippingSupplies2" Key="{EB2A85A6-8BF6-4C2A-B63E-208433F30443}">
+										<Image FileName="-2102025186" Left="470" Top="859" Right="791" Bottom="873" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Shipping Supplies&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Cls_shipping&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMaterialHandling" Key="{97ACF9FB-2466-4300-A78C-2122789B6B8C}">
+										<Image FileName="-1450967780" Left="791" Top="657" Right="1112" Bottom="881" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMaterialHandling2" Key="{180BC719-BFDE-411E-8793-8CE69D0F50B0}">
+										<Image FileName="-1450967780" Left="791" Top="859" Right="1112" Bottom="873" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Material Handling&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Material-Handling&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePolyBags" Key="{4ABDF406-72E9-400D-A02B-CE0E5D34B5AC}">
+										<Image FileName="867286789" Left="149" Top="881" Right="470" Bottom="1105" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Poly Bags&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePolyBags2" Key="{663EC651-EB35-4E85-A327-8405AA88697D}">
+										<Image FileName="867286789" Left="149" Top="1083" Right="470" Bottom="1097" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Poly Bags&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Bags-Poly-Plastic&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRetailStoreOperations" Key="{1EF388C4-8805-4BBB-B65E-2E8611C6B052}">
+										<Image FileName="1650132138" Left="470" Top="881" Right="791" Bottom="1105" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Retail/Store Operations&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRetailStoreOperations2" Key="{C3FE0F26-F881-432B-ACF2-D9F99B54945C}">
+										<Image FileName="1650132138" Left="470" Top="1083" Right="791" Bottom="1097" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Retail/Store Operations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Retail&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWarehouseEquipment" Key="{F90DDCE1-A04E-46D1-AA80-EC44C488CF7B}">
+										<Image FileName="764659374" Left="791" Top="881" Right="1112" Bottom="1105" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWarehouseEquipment2" Key="{594DBB2F-B1EE-4C79-86D9-E6530A254223}">
+										<Image FileName="764659374" Left="791" Top="1083" Right="1112" Bottom="1097" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Warehouse Equipment&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Warehouse-Supplies-Equipment&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFacilitiesMaintenance" Key="{71F2F472-0EA0-45CB-8D74-B24D1F12F39D}">
+										<Image FileName="212933536" Left="149" Top="1105" Right="470" Bottom="1329" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li[7]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFacilitiesMaintenance2" Key="{5FC4A722-1458-4F83-B726-E61697967AAD}">
+										<Image FileName="212933536" Left="149" Top="1307" Right="470" Bottom="1321" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Facilities Maintenance&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Facilities-Maintenance&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJanitorialSupplies" Key="{692A7258-BF5B-41B6-8E49-CB316039D710}">
+										<Image FileName="434920359" Left="470" Top="1105" Right="791" Bottom="1329" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li[8]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJanitorialSupplies2" Key="{89966F9C-2FC9-4942-A8DD-C9A93735A404}">
+										<Image FileName="434920359" Left="470" Top="1307" Right="791" Bottom="1321" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Janitorial Supplies&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Janitorial-Supplies&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSafetyProducts" Key="{CE985A64-1801-4113-881A-B05D80169E60}">
+										<Image FileName="434916038" Left="791" Top="1105" Right="1112" Bottom="1329" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//ul/li[9]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSafetyProducts2" Key="{1F88EEE5-BD8D-4110-8EDE-F3D6E103607E}">
+										<Image FileName="434916038" Left="791" Top="1307" Right="1112" Bottom="1321" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Safety Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[9]/a/span[contains(@class, &apos;caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Safety-Products&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[9]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{B7CC7630-34B2-4D48-A829-6066F19C3300}">
+										<Image FileName="449576299" Left="359" Top="933" Right="1548" Bottom="976" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;locations_bottom&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAboutLocationsAspx" Key="{AA47965D-6AF7-4752-8191-40734A1D5F49}">
+										<Image FileName="-2107013560" Left="419" Top="945" Right="1487" Bottom="963" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;CHICAGO&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;locations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//div[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr[2]/td/div[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAllproductslink" Key="{72D48E74-E975-48E1-AEF9-CDAD3311DB5D}">
+										<Image FileName="1458380905" Left="125" Top="213" Right="278" Bottom="243" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#AllProductsLink" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;AllProductsWrapper&apos;]/div/a[contains(@class, &apos;topTabLink&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;AllProductsLinkWrap&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]/div[@role=&apos;navigation&apos;]/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAntiStatic" Key="{9DB72B9D-A723-4B12-8EB4-41C38AA07DB8}">
+								<Image FileName="1071416044" Left="0" Top="121" Right="2560" Bottom="1400" />
+								<TypeInfo Item0="{2F8C3740-227C-4E2E-8A82-0B9AFE969BAE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/Cls_21/Anti-Static*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeAntiStatic" Key="{647B7B51-6E0C-40E7-9CF0-72F21CFB885D}">
+										<Image FileName="818618475" Left="783" Top="314" Right="1771" Bottom="348" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Anti-Static&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;clsh1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAntiStatic2" Key="{40A4F02F-2EFC-467A-8BF2-EEFF6830D0BF}">
+										<Image FileName="-1534858524" Left="664" Top="253" Right="886" Bottom="481" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Anti-Static&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBagsPolyPlastic" Key="{7EAE3720-A44B-46DF-915B-52204E7B0B43}">
+										<Image FileName="-1534858524" Left="664" Top="276" Right="885" Bottom="299" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Bags, Poly / Plastic&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBagsPolyPlastic" Key="{61D2700D-66C4-4AD4-BDAA-F2F6AFAF6645}">
+										<Image FileName="-1534858524" Left="664" Top="276" Right="885" Bottom="299" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Bags, Poly / Plastic&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;AllProductsMenu&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]/div[@role=&apos;navigation&apos;]//div[@id=&apos;AllProductsMenu&apos;]/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBubbleBags" Key="{4BFF9C6F-CF4D-49DA-92D6-24A7576EE698}">
+										<Image FileName="-1437496431" Left="251" Top="436" Right="499" Bottom="637" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Bubble Bags&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBubbleBags" Key="{05FB61A4-E0B3-4CDE-B019-A020CA08C303}">
+										<Image FileName="-1437496431" Left="263" Top="620" Right="486" Bottom="637" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Bubble Bags&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/a/p[contains(@class, &apos;cg-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Anti-Static-Bubble-Bags&apos;)]/p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/a/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBagsPolyPlastic" Key="{53452A76-49B0-4A3F-A227-38FF18FFC474}">
+								<Image FileName="1071416044" Left="0" Top="121" Right="2560" Bottom="1400" />
+								<TypeInfo Item0="{2F8C3740-227C-4E2E-8A82-0B9AFE969BAE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/Cls_01/Bags-Poly-Plastic*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBags" Key="{C97411C9-F3D4-414A-94F7-27ABB785174F}">
+										<Image FileName="-420407505" Left="781" Top="314" Right="1771" Bottom="348" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Bags&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;clsh1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAntiStatic" Key="{60B7DA88-D490-44BA-B8C2-FFF921538928}">
+										<Image FileName="-65581533" Left="664" Top="253" Right="886" Bottom="481" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Anti-Static&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBarcodeLabelsAndPrinters" Key="{1DEDDB42-2DA0-4D32-BEC7-DF77D9CF0CF0}">
+										<Image FileName="-65581533" Left="664" Top="299" Right="885" Bottom="322" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Barcode Labels and Printers&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBarcodeLabelsAndPrinters" Key="{681AA204-422F-4A41-8A18-6EB9BB779DB5}">
+										<Image FileName="-65581533" Left="664" Top="299" Right="885" Bottom="322" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Barcode Labels and Printers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;AllProductsMenu&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]/div[@role=&apos;navigation&apos;]//div[@id=&apos;AllProductsMenu&apos;]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePlasticBagsPolyBagsClearBags" Key="{1905B636-2269-48FA-AEE0-F13D05B383ED}">
+								<Image FileName="1071416044" Left="0" Top="121" Right="2560" Bottom="1400" />
+								<TypeInfo Item0="{2F8C3740-227C-4E2E-8A82-0B9AFE969BAE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/Cls_26/Barcode-Labels-and-Printers*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBarcodeLabelsAndPrinters" Key="{21367AD3-5C3C-4F58-B045-DDF7741FBB25}">
+										<Image FileName="1942382888" Left="790" Top="314" Right="1778" Bottom="348" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Barcode Labels and Printers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;clsh1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow3" Key="{4E7D2F72-4DE0-4464-9844-07E764390B6F}">
+								<Image FileName="437485414" Left="0" Top="0" Right="1920" Bottom="1080" />
+								<TypeInfo Item0="{A11A8785-B240-4871-8DE7-91F24C12AFE3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageUlineShippingBoxesShippingSu2" Key="{2C54BB1A-F6AF-4B1A-A3E4-0D8690E7DD60}">
+								<TypeInfo Item0="{2F8C3740-227C-4E2E-8A82-0B9AFE969BAE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/Cls_04/Boxes-Corrugated*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBoxes" Key="{F7B8DDCE-6DAE-4548-A866-F1EEA08C5B64}">
+										<Image FileName="-927156277" Left="143" Top="302" Right="927" Bottom="330" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Boxes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;clsh1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow4" Key="{7312655D-AE6E-47A1-BEC5-0CFEDAE45F48}">
+								<Image FileName="-102630393" Left="0" Top="0" Right="1294" Bottom="1056" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="page598RecognizingTestObjectsTes" Key="{7C8A0759-D254-4819-86C8-D0FD94731C84}">
+								<Image FileName="-2118282067" Left="0" Top="121" Right="2560" Bottom="1400" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.youtube.com/watch*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="videoWwwYoutubeCom" Key="{80B55680-B94B-463E-AF54-8CAF86161E75}">
+										<Image FileName="-2118282067" Left="140" Top="201" Right="1980" Bottom="1236" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//video[contains(@src, &apos;www.youtube.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ytd-watch-flexy[@role=&apos;main&apos;]//ytd-player//video[contains(@class, &apos;video-stream&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;movie_player&apos;]//video" />
+											</Selector>
+											<Selector>
+												<Value Value="//ytd-watch-flexy[@role=&apos;main&apos;]//ytd-player//video" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWhatIsXhrGoogleSearch" Key="{DF6F6814-A917-40A8-AF27-1B522EB0ACC3}">
+								<Image FileName="636452321" Left="0" Top="121" Right="1541" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{FDD59E94-70B7-41E3-8BD7-636987EDFCA8}">
+										<Image FileName="-152454322" Left="0" Top="127" Right="1526" Bottom="196" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sfbg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGsr" Key="{6BA7E875-BF64-406D-AFB0-1E40D1AB2291}">
+										<Image FileName="636452321" Left="0" Top="121" Right="1526" Bottom="3664" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#gsr" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(., &apos;xhr and Fetch Simple Example to of AJAX request JavaScript ...&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;srp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFiltersAndTopics" Key="{2E4C0B63-7267-44E1-A917-F16197A2315B}">
+										<Image FileName="-1825842366" Left="208" Top="209" Right="1526" Bottom="254" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/div[contains(@class, &apos;sBbkle&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow5" Key="{94A809BD-1416-40CA-90A2-83AEEE577075}">
+								<Image FileName="-1438640356" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{A11A8785-B240-4871-8DE7-91F24C12AFE3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="5" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{B2580999-84A6-454A-ABF5-BACDD115967A}">
+										<Image FileName="-1034020484" Left="0" Top="121" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{DE9634A2-0529-404E-A7D5-9327F025B639}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUlineShippingBoxesShippingSu3" Key="{CF80438E-C3B0-45BD-9886-9879B9AAD42F}">
+								<TypeInfo Item0="{2F8C3740-227C-4E2E-8A82-0B9AFE969BAE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/product/BrowseWebClass.htm*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeAntiStatic" Key="{F3C93F0C-6F09-4C0E-B112-481855561766}">
+										<Image FileName="-233753246" Left="245" Top="642" Right="480" Bottom="930" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Cushioning, Peanuts and Foam&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;firstone&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAntiStatic" Key="{A6AB3C55-1024-467D-B1C3-B566C61DC607}">
+										<Image FileName="-233753246" Left="245" Top="645" Right="314" Bottom="663" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;bodycontent&apos;]//div[2]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAntiStaticBagsEsdBagsAndAnti" Key="{6B6714F9-1F7E-4058-8D90-32EEA18956E9}">
+								<Image FileName="859284241" Left="0" Top="121" Right="1505" Bottom="1040" />
+								<TypeInfo Item0="{2F8C3740-227C-4E2E-8A82-0B9AFE969BAE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/BL_7651/Anti-Static-Bubble-Bags" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkCart20" Key="{9F04EFFD-6731-4EC1-83D5-29658F926158}">
+										<Image FileName="-418554519" Left="1083" Top="871" Right="1129" Bottom="894" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//tr[23]/td/attrib/attrib/a[contains(@class, &apos;button2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dvChart&apos;]//tr[23]/td[9]/attrib/attrib/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//tr[23]/td[9]/attrib/attrib/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelS18399" Key="{85DBD415-4FF1-4BC1-9C32-1561C8BD49EC}">
+										<Image FileName="-1072810287" Left="996" Top="249" Right="1346" Bottom="264" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;previewItemInfoBottomRow&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLnkcartlink2" Key="{B49C217A-4687-4101-B1E7-A0B8321CAB1A}">
+										<Image FileName="1485781584" Left="1201" Top="125" Right="1273" Bottom="140" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lnkCartLink2" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;$118.00&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pnlHeaderStatusLine2&apos;]/div[@id=&apos;divCartLinkWrapper2&apos;]/a[contains(@class, &apos;whitelinkbold&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;divCartLinkWrapper2&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;banner&apos;]//div[2]//div[@id=&apos;pnlHeaderStatusLine2&apos;]/div[@id=&apos;divCartLinkWrapper2&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLblcartstatus2" Key="{BEA58767-EBC9-4D9C-B91E-CFE60A6B3E65}">
+										<Image FileName="1485781584" Left="1232" Top="126" Right="1272" Bottom="140" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lblCartStatus2" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;$118.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pnlHeaderStatusLine2&apos;]//a/span[contains(@class, &apos;headerSubtotal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;lnkCartLink2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pnlHeaderStatusLine2&apos;]/div[@id=&apos;divCartLinkWrapper2&apos;]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelShoppingcartitems0Cusdescri" Key="{8B236999-CCB7-4D85-9C6A-3797AFE989F1}">
+										<Image FileName="-376653285" Left="1066" Top="195" Right="1279" Bottom="225" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ShoppingCartItems_0__CusDescription" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Anti-Static Bubble Bags - Self-Seal, 24 x 24&quot;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;previewCart-container&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUlineShoppingCart" Key="{330E4A57-380E-4142-A9B4-4936DC9562E6}">
+								<Image FileName="859284241" Left="0" Top="121" Right="1505" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/Product/ViewCart" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formTheform" Key="{94CB2AA6-A874-4C69-BFCF-36E58975E423}">
+										<Image FileName="-1755273579" Left="355" Top="284" Right="1155" Bottom="624" />
+										<Selectors>
+											<Selector>
+												<Value Value="#theForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;ViewCart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;uline-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;parentViewCartContainer&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkS18399" Key="{764BA6D2-6274-4CA6-87D1-7A8D956E066D}">
+										<Image FileName="346042845" Left="363" Top="420" Right="420" Bottom="440" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;S-18399&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//tr/td[2]//a[contains(@class, &apos;viewcartLinks2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;theForm&apos;]//td//tr/td[2]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAntiStaticBubbleBagsSelfSe" Key="{32C0F3A1-4388-43E0-A4B8-9445A178E0CA}">
+										<Image FileName="-1039144644" Left="429" Top="420" Right="835" Bottom="440" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Anti-Static Bubble Bags - Self-Seal, 24 x 24&quot; 75/carton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//tr/td//tr/td[3]//a[contains(@class, &apos;viewcartLinks2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;theForm&apos;]//td//tr/td[3]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{3C427331-492C-4A52-B3A5-6425BA1E2674}">
+										<Image FileName="-1755273579" Left="927" Top="418" Right="1014" Bottom="442" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;$118.00/CT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;theForm&apos;]//tr[2]/td//tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td//tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode11800" Key="{9E25AC3D-7661-4ADF-BCE6-582460828B2E}">
+										<Image FileName="-1755273579" Left="1020" Top="420" Right="1078" Bottom="440" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@id=&apos;theForm&apos;]//tr[2]/td/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonActionRemovecartitem" Key="{627254D0-16DC-4794-95E3-0EA712A76182}">
+										<Image FileName="72983496" Left="1113" Top="424" Right="1125" Bottom="436" />
+										<TypeInfo Item0="{AEC1551E-0251-46EF-847D-153987625122}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;action.RemoveCartItem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;remove-cart-item-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;theForm&apos;]//tr/td[8]/table//tr/td/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[8]/table//tr/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLblcartempty" Key="{7965C6DA-2F12-4974-8721-72B9499FAA8D}">
+										<Image FileName="-736978412" Left="660" Top="453" Right="850" Bottom="471" />
+										<TypeInfo Item0="{C9CCC16A-3786-4CAE-8FF1-A29DB55A95A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lblCartEmpty" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Your cart is currently empty.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;EmptyCartContent&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;theForm&apos;]//div[4]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[4]//div[4]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageUlineSignIn" Key="{CEECA0FD-7FFB-48BF-9CD6-D6561977E5C5}">
+								<Image FileName="2138280372" Left="8" Top="121" Right="1903" Bottom="1025" />
+								<TypeInfo Item0="{C3D1F878-CEB0-4CEB-9124-AC32C9A7ACD6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.uline.com/SignIn/SignIn" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSigninform" Key="{5A3360DE-16AE-4D01-B387-CAA22D7BFFAE}">
+										<Image FileName="550190356" Left="341" Top="301" Right="1580" Bottom="343" />
+										<TypeInfo Item0="{E2A662A5-2211-4653-BEFF-DEABB38D1D80}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#signinForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;SIGN IN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;SignIn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailIsRequired" Key="{DAC2AF5A-2B6F-4C7C-B114-44923A93BFEE}">
+										<Image FileName="550190356" Left="416" Top="422" Right="756" Bottom="461" />
+										<TypeInfo Item0="{6CBEF034-DB29-4BCA-B34E-C722BF5E4B5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[text()=&apos;Email is required&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#txtEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form[@id=&apos;signinForm&apos;]//input[@name=&apos;txtEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form[@id=&apos;signinForm&apos;]/div[@id=&apos;signInContainer&apos;]//div[@id=&apos;EmailField&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{0450E782-6AB7-471A-848C-E1B6CFA0ABFB}">
+										<Image FileName="-1558792510" Left="416" Top="481" Right="756" Bottom="520" />
+										<TypeInfo Item0="{6CBEF034-DB29-4BCA-B34E-C722BF5E4B5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;PasswordPassword (6-20 characters, 1 letter and 1 number)&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#txtPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;txtPassword&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{BDDA3A3E-2797-450B-B4B0-F0BC097E684C}">
+										<Image FileName="-1558792510" Left="682" Top="530" Right="755" Bottom="562" />
+										<TypeInfo Item0="{4A4CD721-46D5-4C09-B076-66520861500C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#btnSignIn" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form[@id=&apos;signinForm&apos;]//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form[@id=&apos;signinForm&apos;]//input[contains(@class, &apos;buttonDefault&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;signInContainer&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form[@id=&apos;signinForm&apos;]/div[@id=&apos;signInContainer&apos;]//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{4453BD17-6373-4AB2-8F8B-BF1674085895}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{1A7651AE-C9BB-49F0-8941-61F4735B07AB}">
+								<Image FileName="-1345625213" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{3775CD50-CB6D-4C65-B282-6FC3395224E1}">
+										<Image FileName="-1345625213" Left="384" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{10C5F74F-FD5D-4A8E-B809-74F20BC99D09}">
+												<Image FileName="-1345625213" Left="384" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{DE9634A2-0529-404E-A7D5-9327F025B639}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_SecondaryTrayWnd2" Key="{BA1AEA99-E201-42C0-B4D9-B26F7A6CC961}">
+								<Image FileName="-1686579447" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{1734E71D-0FAB-40DF-809E-93CF815AA702}">
+										<Image FileName="-1686579447" Left="384" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{327ECE8F-897E-4148-AD09-83CF8EF4B50A}">
+												<Image FileName="-1686579447" Left="384" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{DE9634A2-0529-404E-A7D5-9327F025B639}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{51E40EE2-8399-4636-9B2A-5A4E3A17A9EC}">
+			<Child Name="BrowserWindow" Owner="{5873BF5D-96FB-4716-AB35-18AFF790C435}" />
+			<Child Name="BrowserWindow2" Owner="{E2C89592-B0B3-4E96-93BF-BB4F27593EFD}" />
+			<Child Name="pageUlineShippingBoxesShippingSu" Owner="{4EDA21FA-C459-400F-B747-55DF24905871}">
+				<Child Name="textnodeBody" Owner="{92D2ECB2-4CB4-45C7-B9B0-154E1B2B96E7}" />
+				<Child Name="textnodeAntiStatic" Owner="{771918F8-7F89-4C71-8593-2C44699C7799}">
+					<Child Name="textnodeAntiStatic2" Owner="{AF6C99AC-D507-4B97-8C98-3332D6ECD327}">
+						<Child Name="linkAntiStatic" Owner="{7947B25A-0B95-47B0-8E20-B20238B2FE5F}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeSearch" Owner="{E1DADD4C-8FFB-4DAC-87BE-5048F32379ED}" />
+				<Child Name="textboxSearchBar" Owner="{70637644-1055-454A-93ED-1FE2BFA4C19B}" />
+				<Child Name="buttonGo" Owner="{BBE4C98A-EAAD-4460-BE7B-56886A2048C5}" />
+				<Child Name="imageHomeMar25Feature1Us" Owner="{38134D52-D6B7-4DC8-BEEB-9A92D83DE016}" />
+				<Child Name="imageHomeMar25Feature1Us2" Owner="{B4A44CC5-A104-4EA5-970D-A3AB2EB74159}" />
+				<Child Name="textnodeBoxes" Owner="{A1A2ED7E-C198-47D5-AFEB-39CA8872E28B}">
+					<Child Name="textnodeBoxes2" Owner="{C6836F6B-06B3-44E8-BD07-B8B19C955CAA}">
+						<Child Name="textnodeBoxes3" Owner="{C666ABC6-5A06-4319-9EBB-A2AF49A9317F}" />
+					</Child>
+					<Child Name="textnodeShippingSupplies" Owner="{06A5D317-7D3F-475F-8EE6-9B9EE8217313}">
+						<Child Name="textnodeShippingSupplies2" Owner="{EB2A85A6-8BF6-4C2A-B63E-208433F30443}" />
+					</Child>
+					<Child Name="textnodeMaterialHandling" Owner="{97ACF9FB-2466-4300-A78C-2122789B6B8C}">
+						<Child Name="textnodeMaterialHandling2" Owner="{180BC719-BFDE-411E-8793-8CE69D0F50B0}" />
+					</Child>
+					<Child Name="textnodePolyBags" Owner="{4ABDF406-72E9-400D-A02B-CE0E5D34B5AC}">
+						<Child Name="textnodePolyBags2" Owner="{663EC651-EB35-4E85-A327-8405AA88697D}" />
+					</Child>
+					<Child Name="textnodeRetailStoreOperations" Owner="{1EF388C4-8805-4BBB-B65E-2E8611C6B052}">
+						<Child Name="textnodeRetailStoreOperations2" Owner="{C3FE0F26-F881-432B-ACF2-D9F99B54945C}" />
+					</Child>
+					<Child Name="textnodeWarehouseEquipment" Owner="{F90DDCE1-A04E-46D1-AA80-EC44C488CF7B}">
+						<Child Name="textnodeWarehouseEquipment2" Owner="{594DBB2F-B1EE-4C79-86D9-E6530A254223}" />
+					</Child>
+					<Child Name="textnodeFacilitiesMaintenance" Owner="{71F2F472-0EA0-45CB-8D74-B24D1F12F39D}">
+						<Child Name="textnodeFacilitiesMaintenance2" Owner="{5FC4A722-1458-4F83-B726-E61697967AAD}" />
+					</Child>
+					<Child Name="textnodeJanitorialSupplies" Owner="{692A7258-BF5B-41B6-8E49-CB316039D710}">
+						<Child Name="textnodeJanitorialSupplies2" Owner="{89966F9C-2FC9-4942-A8DD-C9A93735A404}" />
+					</Child>
+					<Child Name="textnodeSafetyProducts" Owner="{CE985A64-1801-4113-881A-B05D80169E60}">
+						<Child Name="textnodeSafetyProducts2" Owner="{1F88EEE5-BD8D-4110-8EDE-F3D6E103607E}" />
+					</Child>
+				</Child>
+				<Child Name="panel" Owner="{B7CC7630-34B2-4D48-A829-6066F19C3300}" />
+				<Child Name="linkAboutLocationsAspx" Owner="{AA47965D-6AF7-4752-8191-40734A1D5F49}" />
+				<Child Name="linkAllproductslink" Owner="{72D48E74-E975-48E1-AEF9-CDAD3311DB5D}" />
+			</Child>
+			<Child Name="pageAntiStatic" Owner="{9DB72B9D-A723-4B12-8EB4-41C38AA07DB8}">
+				<Child Name="textnodeAntiStatic" Owner="{647B7B51-6E0C-40E7-9CF0-72F21CFB885D}" />
+				<Child Name="textnodeAntiStatic2" Owner="{40A4F02F-2EFC-467A-8BF2-EEFF6830D0BF}">
+					<Child Name="textnodeBagsPolyPlastic" Owner="{7EAE3720-A44B-46DF-915B-52204E7B0B43}">
+						<Child Name="linkBagsPolyPlastic" Owner="{61D2700D-66C4-4AD4-BDAA-F2F6AFAF6645}" />
+					</Child>
+				</Child>
+				<Child Name="linkBubbleBags" Owner="{4BFF9C6F-CF4D-49DA-92D6-24A7576EE698}">
+					<Child Name="textnodeBubbleBags" Owner="{05FB61A4-E0B3-4CDE-B019-A020CA08C303}" />
+				</Child>
+			</Child>
+			<Child Name="pageBagsPolyPlastic" Owner="{53452A76-49B0-4A3F-A227-38FF18FFC474}">
+				<Child Name="textnodeBags" Owner="{C97411C9-F3D4-414A-94F7-27ABB785174F}" />
+				<Child Name="textnodeAntiStatic" Owner="{60B7DA88-D490-44BA-B8C2-FFF921538928}">
+					<Child Name="textnodeBarcodeLabelsAndPrinters" Owner="{1DEDDB42-2DA0-4D32-BEC7-DF77D9CF0CF0}">
+						<Child Name="linkBarcodeLabelsAndPrinters" Owner="{681AA204-422F-4A41-8A18-6EB9BB779DB5}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pagePlasticBagsPolyBagsClearBags" Owner="{1905B636-2269-48FA-AEE0-F13D05B383ED}">
+				<Child Name="textnodeBarcodeLabelsAndPrinters" Owner="{21367AD3-5C3C-4F58-B045-DDF7741FBB25}" />
+			</Child>
+			<Child Name="BrowserWindow3" Owner="{4E7D2F72-4DE0-4464-9844-07E764390B6F}" />
+			<Child Name="pageUlineShippingBoxesShippingSu2" Owner="{2C54BB1A-F6AF-4B1A-A3E4-0D8690E7DD60}">
+				<Child Name="textnodeBoxes" Owner="{F7B8DDCE-6DAE-4548-A866-F1EEA08C5B64}" />
+			</Child>
+			<Child Name="BrowserWindow4" Owner="{7312655D-AE6E-47A1-BEC5-0CFEDAE45F48}" />
+			<Child Name="page598RecognizingTestObjectsTes" Owner="{7C8A0759-D254-4819-86C8-D0FD94731C84}">
+				<Child Name="videoWwwYoutubeCom" Owner="{80B55680-B94B-463E-AF54-8CAF86161E75}" />
+			</Child>
+			<Child Name="pageWhatIsXhrGoogleSearch" Owner="{DF6F6814-A917-40A8-AF27-1B522EB0ACC3}">
+				<Child Name="panel" Owner="{FDD59E94-70B7-41E3-8BD7-636987EDFCA8}" />
+				<Child Name="textnodeGsr" Owner="{6BA7E875-BF64-406D-AFB0-1E40D1AB2291}" />
+				<Child Name="panelFiltersAndTopics" Owner="{2E4C0B63-7267-44E1-A917-F16197A2315B}" />
+			</Child>
+			<Child Name="BrowserWindow5" Owner="{94A809BD-1416-40CA-90A2-83AEEE577075}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{B2580999-84A6-454A-ABF5-BACDD115967A}" />
+			</Child>
+			<Child Name="pageUlineShippingBoxesShippingSu3" Owner="{CF80438E-C3B0-45BD-9886-9879B9AAD42F}">
+				<Child Name="textnodeAntiStatic" Owner="{F3C93F0C-6F09-4C0E-B112-481855561766}">
+					<Child Name="linkAntiStatic" Owner="{A6AB3C55-1024-467D-B1C3-B566C61DC607}" />
+				</Child>
+			</Child>
+			<Child Name="pageAntiStaticBagsEsdBagsAndAnti" Owner="{6B6714F9-1F7E-4058-8D90-32EEA18956E9}">
+				<Child Name="linkCart20" Owner="{9F04EFFD-6731-4EC1-83D5-29658F926158}" />
+				<Child Name="panelS18399" Owner="{85DBD415-4FF1-4BC1-9C32-1561C8BD49EC}" />
+				<Child Name="linkLnkcartlink2" Owner="{B49C217A-4687-4101-B1E7-A0B8321CAB1A}">
+					<Child Name="textnodeLblcartstatus2" Owner="{BEA58767-EBC9-4D9C-B91E-CFE60A6B3E65}" />
+				</Child>
+				<Child Name="labelShoppingcartitems0Cusdescri" Owner="{8B236999-CCB7-4D85-9C6A-3797AFE989F1}" />
+			</Child>
+			<Child Name="pageUlineShoppingCart" Owner="{330E4A57-380E-4142-A9B4-4936DC9562E6}">
+				<Child Name="formTheform" Owner="{94CB2AA6-A874-4C69-BFCF-36E58975E423}">
+					<Child Name="linkS18399" Owner="{764BA6D2-6274-4CA6-87D1-7A8D956E066D}" />
+					<Child Name="linkAntiStaticBubbleBagsSelfSe" Owner="{32C0F3A1-4388-43E0-A4B8-9445A178E0CA}" />
+					<Child Name="cell" Owner="{3C427331-492C-4A52-B3A5-6425BA1E2674}" />
+					<Child Name="textnode11800" Owner="{9E25AC3D-7661-4ADF-BCE6-582460828B2E}" />
+					<Child Name="submitbuttonActionRemovecartitem" Owner="{627254D0-16DC-4794-95E3-0EA712A76182}" />
+					<Child Name="textnodeLblcartempty" Owner="{7965C6DA-2F12-4974-8721-72B9499FAA8D}" />
+				</Child>
+			</Child>
+			<Child Name="pageUlineSignIn" Owner="{CEECA0FD-7FFB-48BF-9CD6-D6561977E5C5}">
+				<Child Name="formSigninform" Owner="{5A3360DE-16AE-4D01-B387-CAA22D7BFFAE}">
+					<Child Name="emailinputEmailIsRequired" Owner="{DAC2AF5A-2B6F-4C7C-B114-44923A93BFEE}" />
+					<Child Name="passwordboxPassword" Owner="{0450E782-6AB7-471A-848C-E1B6CFA0ABFB}" />
+					<Child Name="submitbuttonSignIn" Owner="{BDDA3A3E-2797-450B-B4B0-F0BC097E684C}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{4453BD17-6373-4AB2-8F8B-BF1674085895}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{1A7651AE-C9BB-49F0-8941-61F4735B07AB}">
+				<Child Name="WorkerW" Owner="{3775CD50-CB6D-4C65-B282-6FC3395224E1}">
+					<Child Name="MSTaskListWClass" Owner="{10C5F74F-FD5D-4A8E-B809-74F20BC99D09}" />
+				</Child>
+			</Child>
+			<Child Name="wndShell_SecondaryTrayWnd2" Owner="{BA1AEA99-E201-42C0-B4D9-B26F7A6CC961}">
+				<Child Name="WorkerW" Owner="{1734E71D-0FAB-40DF-809E-93CF815AA702}">
+					<Child Name="MSTaskListWClass" Owner="{327ECE8F-897E-4148-AD09-83CF8EF4B50A}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

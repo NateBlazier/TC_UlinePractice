@@ -54,7 +54,7 @@ reports/
 
 # Debug logs and screenshots
 *ScreenShots*
-*.png  # If screenshots are auto-saved
+*.png
 *.jpg
 *.jpeg
 
