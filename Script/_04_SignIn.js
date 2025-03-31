@@ -4,6 +4,7 @@ function _04_SignIn_UserSignin() {
   // Step 1: Navigate to Uline's sign-in page
   Browsers.Item(btChrome).Run("https://www.uline.com/SignIn/SignIn");
 
+  //Not Real Password
   const sEmail = "nblazier@gmail.com";
   const sPassword = "BestPasswordEver123!@#";
 
