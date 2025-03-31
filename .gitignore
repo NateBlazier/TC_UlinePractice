@@ -1,0 +1,70 @@
+# TestComplete project-specific
+*.tcCfgExtender
+*.mds
+*.tcbak
+*.tcLS
+*.tclog
+*.tclogx
+*.tcResults
+*.tcLog
+*.tcCfg
+*.tcrb
+*.tcVCS
+*.pjs
+*.bak
+*.dcu
+*.~*
+*.tmp
+*.map
+*.stat
+
+# TestExecute logs
+Log/  # If you keep logs in a folder named Log
+*.log
+
+# Test Visualizer images
+*.tcVis
+*Visualizer*
+
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-specific (if using tools like VS Code)
+.vscode/
+.idea/
+
+# Node projects (if your project includes scripts or test runners)
+node_modules/
+dist/
+
+# Python virtual environments (if applicable)
+venv/
+.env
+
+# Coverage and report folders (optional)
+coverage/
+reports/
+
+
+# Stores test run results — typically not needed in source control
+*.tcRes
+
+# Debug logs and screenshots
+*ScreenShots*
+*.png  # If screenshots are auto-saved
+*.jpg
+*.jpeg
+
+# Error dump files
+*.dmp
+
+# Per-user project or suite settings
+*.ini
+*.cfg
+
+# Stores last opened test, cursor positions, etc.
+*.tcOPN
+
